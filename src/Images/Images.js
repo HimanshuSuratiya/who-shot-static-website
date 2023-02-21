@@ -11,6 +11,9 @@ import notification from "./notification.png";
 import power from "./power.png";
 import email from "./email.png";
 import girl1 from "./girl1.jpg";
+import phone from "./phone.png";
+import appstore from "./appstore.png";
+import playstore from "./playstore.png";
 
 const Images = {
     Logo,
@@ -26,6 +29,9 @@ const Images = {
     power,
     email,
     girl1,
+    phone,
+    appstore,
+    playstore,
 };
 
 export default Images
