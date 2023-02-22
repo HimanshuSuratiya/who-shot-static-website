@@ -4,7 +4,7 @@
 }
 
 .bgColor {
-    background: #912c00;
+    background: #902d1a;
 }
 
 .colorwhite {
@@ -28,7 +28,7 @@
 }
 
 .padlt {
-    padding-left: 0;
+    padding-left: 5px;
 }
 
 .padrt {
@@ -68,7 +68,7 @@
 }
 
 .header .h2-nav .navbar-nav .nav-item.active .nav-link {
-    color: #000;
+    color: #1a5125;
 }
 
 .header .h2-nav .navbar-nav .nav-item .nav-link {
@@ -79,7 +79,7 @@
 }
 
 .header .h2-nav .navbar-nav .nav-item .nav-link:hover {
-    color: #000;
+    color: #869375;
 }
 
 .header .h2-nav .navbar-nav .nav-item {
@@ -175,9 +175,18 @@ nav#navbar_top {
 
 .buttonsignin {
     padding: 3px 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: 600;
     margin-left: 30px;
+    background-color: #859374;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.buttonsignin:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #859374;
 }
 
 /*******************/
@@ -215,7 +224,7 @@ nav#navbar_top {
 }
 
 .counterup-image p span {
-    color: #ca2d3e;
+    color: #902d1a;
 }
 
 .quiz_counter.counterup-image img {
@@ -229,13 +238,23 @@ nav#navbar_top {
 }
 
 .lightblue_bgcolor {
-    background-image: linear-gradient(176deg, #ffde59 0%, #ca2d3e 97%);
-    /*background: #e8f2f9;*/
+    background-image: linear-gradient(176deg, #902d1a 0%, #869375 97%);
+    border-radius: 2% 50%;
+    transition: 0.8s ease-in-out;
+}
+
+.lightblue_bgcolor:hover {
+    rotate: 1turn;
 }
 
 .lightrad_bgcolor {
-    /*background: #f0e4f7;*/
-    background-image: linear-gradient(176deg, #ca2d3e 0%, #ffde59 97%);
+    background-image: linear-gradient(176deg, #869375 0%, #195124 97%);
+    border-radius: 50% 2%;
+    transition: 0.8s ease-in-out;
+}
+
+.lightrad_bgcolor:hover {
+    rotate: 1turn;
 }
 
 .appworkicon {
@@ -255,7 +274,7 @@ nav#navbar_top {
 .appworkicon i {
     font-size: 50px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 /***********************whyUserslovethisappSection***********************/
@@ -272,7 +291,7 @@ nav#navbar_top {
 .whyUserscont h5 {
     font-size: 15px;
     font-weight: 700;
-    color: #ca2d3e;
+    color: #902d1a;
 }
 
 .whyUserscont h2 {
@@ -313,16 +332,13 @@ nav#navbar_top {
     padding: 18px;
     box-shadow: 0px 0px 6px 0px #c5c4c4;
     border-radius: 4px;
-    transition: .6s;
 }
 
 .right_more_reason:hover {
-    /*background: #ffde59;*/
     color: #000;
-    background-image: linear-gradient(176deg, #ca2d3e 0%, #ffde59 97%);
-    transition: .6s;
-
-
+    background-image: linear-gradient(176deg, #902d1a 0%, #869375 97%);
+    transition: .7s;
+    transform: translateY(-18px);
 }
 
 .reason_contant {
@@ -339,7 +355,6 @@ nav#navbar_top {
 
 .download_nowBtn {
     padding: 7px 20px;
-    background: #ca2d3e;
     border: 0;
 }
 
@@ -382,10 +397,9 @@ nav#navbar_top {
     left: 0;
     right: 0;
     height: 100%;
-
     border-radius: 6px;
     background-color: transparent;
-    background-image: linear-gradient(176deg, #ca2d3e 0%, #ffde59 97%);
+    background-image: linear-gradient(176deg, #869375 0%, #195225 97%);
     opacity: 0.83;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     z-index: -2;
@@ -398,7 +412,7 @@ nav#navbar_top {
 /**************footer***************/
 .subscribe-bg {
     background: -webkit-gradient(linear, left top, right top, from(#ca2d3e, to #ffde59));
-    background: linear-gradient(to right, #ca2d3e 0%, #ffde59 100%);
+    background-image: linear-gradient(176deg, #902d1a 0%, #869375 97%);
     padding: 40px 0;
 }
 
@@ -444,8 +458,8 @@ nav#navbar_top {
 .btn-email {
     border-radius: 5px;
     padding: 10px 35px;
-    background-color: #ffffff;
-    color: #ca2d3e;
+    background-color: #902d1a;
+    color: #fff;
     margin-left: 15px;
     margin-top: -5px;
     font-weight: 500;
@@ -461,7 +475,7 @@ nav#navbar_top {
     display: inline-flex;
     height: 35px;
     width: 35px;
-    background: #ca2d3e;
+    background: #869375;
     border-radius: 50%;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -501,7 +515,7 @@ nav#navbar_top {
 /******************************************************/
 
 .section_testimonials {
-    background: #ca2d3e;
+    background: linear-gradient(298deg, #902d1a 0%, #859274 97%);
 }
 
 .testimonial .pic {
@@ -518,9 +532,10 @@ nav#navbar_top {
     content: "";
     width: 130px;
     height: 150px;
-    background: #fddb58;
+    background: #902d1a;
     position: absolute;
     z-index: -1;
+    border-radius: 8px;
 }
 
 .testimonial .pic:before {
@@ -536,7 +551,8 @@ nav#navbar_top {
 .testimonial .pic img {
     width: 100%;
     height: auto;
-    border: 3px solid #fddb58;
+    border: 3px solid #000;
+    border-radius: 5px;
 }
 
 .testimonial .testimonial-content {
@@ -579,7 +595,7 @@ nav#navbar_top {
     font-family: "FontAwesome";
     font-weight: 900;
     font-size: 17px;
-    color: #e1c37d;
+    color: #902d1a;
     position: relative;
 }
 
@@ -623,7 +639,7 @@ nav#navbar_top {
     font-family: "fontawesome";
     font-size: 45px;
     font-weight: 900;
-    color: #ddd;
+    color: #869375;
     position: absolute;
     top: 0;
     left: 25%;
@@ -689,4 +705,8 @@ nav#navbar_top {
 .navbar-logo-image {
     height: 60px;
     border-radius: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #902d1a;
 }

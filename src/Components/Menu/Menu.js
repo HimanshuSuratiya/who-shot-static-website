@@ -22,7 +22,7 @@ const Menu = () => {
                                 <li className="nav-item"><a className="nav-link" href="#!">Blogs</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#!-us">Contact Us</a></li>
                             </ul>
-                            <a href="#" className="colorwhite whitebgcolor radcolor buttonsignin">Sign In</a>
+                            <a href="#" className="buttonsignin">Sign In</a>
                         </div>
                     </div>
                 </nav>
