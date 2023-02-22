@@ -10,6 +10,7 @@ import DownloadNow from "./Download Now/DownloadNow";
 import AppAvailable from "./App Available/AppAvailable";
 import Subscribe from "./Subscribe/Subscribe";
 import Footer from "./Footer/Footer";
+import StaticsCounter from "./Statics Counter/StaticsCounter";
 
 const Landing = () => {
     return (
@@ -18,6 +19,7 @@ const Landing = () => {
             <PositiveReviews />
             <AppWork />
             {/* <Features /> */}
+            <StaticsCounter />
             <AppDescription />
             <IncrediblePower />
             <OtherSlider />

@@ -710,3 +710,96 @@ nav#navbar_top {
 .carousel-indicators .active {
     background-color: #902d1a;
 }
+
+/*************Start counterSection******************/
+.counterSection {
+    background: linear-gradient(176deg, #902d1a 0%, #869375 97%);
+    padding-top: 120px;
+    padding-bottom: 100px;
+    transform: skewY(-2deg);
+}
+
+.transformNone {
+    transform: skewY(2deg);
+}
+
+.transformNone .sf-title {
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 440px;
+    line-height: 44px;
+}
+
+.transformNone p {
+    color: #fff;
+    max-width: 490px;
+    margin: 0px;
+}
+
+.counter {
+    text-align: center;
+    width: 80%;
+    padding: 40px 30px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.counter:before,
+.counter:after {
+    content: '';
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 27px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+}
+
+.counter:after {
+    background-color: #869375;
+    border-color: #869375;
+    transform: rotate(-6deg);
+    left: 8px;
+    right: 8px;
+    z-index: -2;
+}
+
+.counter .counter-value {
+    color: #697865;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    display: block;
+}
+
+.counter h6 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.counter.purple:before {
+    background-color: #fff;
+}
+
+.counter.orange:before {
+    background-color: #ef5a23;
+}
+
+.counter.green:before {
+    background-color: #2ab22a;
+}
+
+@media screen and (max-width:990px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+}
+
+/*************End  counterSection******************/
