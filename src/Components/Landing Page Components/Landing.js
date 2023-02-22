@@ -11,10 +11,12 @@ import AppAvailable from "./App Available/AppAvailable";
 import Subscribe from "./Subscribe/Subscribe";
 import Footer from "./Footer/Footer";
 import StaticsCounter from "./Statics Counter/StaticsCounter";
+import Menu from "../Menu/Menu";
 
 const Landing = () => {
     return (
         <>
+            <Menu />
             <Slider />
             <PositiveReviews />
             <AppWork />
